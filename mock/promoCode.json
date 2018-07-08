@@ -1,0 +1,28 @@
+{
+    "_id": "...",
+    "name": "WeatherCode",
+    "avantage": { "percent": 20 },
+    "restrictions": {
+        "or": [{
+            "age": {
+                "min": 40,
+                "max": 40
+            }
+        }, {
+            "age": {
+                "min": 15,
+                "max": 30
+            }
+        }],
+        "date": {
+            "after": "2017-05-02",
+            "before": "2018-05-02"
+        },
+        "meteo": {
+            "is": "clear",
+            "temp": {
+                "gt": "15"
+            }
+        }
+    }
+}

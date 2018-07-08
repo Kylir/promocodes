@@ -1,0 +1,26 @@
+{
+  "name": "promocodes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kylir/promocodes.git"
+  },
+  "author": "Jason Forest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kylir/promocodes/issues"
+  },
+  "homepage": "https://github.com/Kylir/promocodes#readme"
+}
